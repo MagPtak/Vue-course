@@ -1,7 +1,7 @@
 <template>
   <!-- Wykonanie pętlo for na tablicy tasks, utworzenie dla kadego task elementu h3 i wyswietlenie zawartości text -->
   <div :key="task.id" v-for="task in tasks">
-    <Task :task="task" />
+    <Task @delete-task="$emit('delete-task', task.id)" :task="task" />
   </div>
 </template>
 <script>
@@ -14,5 +14,6 @@ export default {
   components: {
     Task,
   },
+  emits: ["delete-task"],
 };
 </script>
