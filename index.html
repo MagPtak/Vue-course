@@ -10,10 +10,11 @@
 <body>
     <div id="app">
         <!-- W react do wczytania zdjęcia stosuje sie {}, we Vue {} nie mogą być uyte wewnątrz atrybutów htmlzamiast tego: v-bind:src bez {}, jako zapisu skrótowego mozna uzyc :src='picture' -->
-        <img v-bind:src="picture" :alt="`${firstName} ${lastName} profile photo`"> 
+        <img :class="gender" v-bind:src="picture"  :alt="`${firstName} ${lastName} profile photo`" > 
         <h1>{{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
-        <button>Get random user</button>
+        <!-- Podobnie stosuje się zdarzenia poprzed v-on:click -->
+        <button v-on:click="getUser()" :class="gender" >Get random user</button>
     </div>
     
     <script src="https://unpkg.com/vue@3"></script>
