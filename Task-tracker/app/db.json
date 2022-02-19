@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 3205,
-      "text": "Go to the swimming pool",
-      "day": "March 1st at 8:00am",
-      "reminder": true
-    },
-    {
       "text": "Chill",
       "day": "February 19th at 8:00am",
       "reminder": true,
