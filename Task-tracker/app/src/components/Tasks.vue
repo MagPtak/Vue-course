@@ -13,7 +13,7 @@ import Task from "./Task";
 export default {
   name: "Tasks",
   props: {
-    tasks: Array,
+    tasks: Object,
   },
   components: {
     Task,

@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "text": "Meeting at school",
+      "text": "Meeting with recruiter",
       "day": "March 2st at 11:30am",
       "reminder": true
     },
@@ -17,6 +17,18 @@
       "text": "Food shopping",
       "day": "March 3st at 4:30pm",
       "reminder": false
+    },
+    {
+      "id": 3205,
+      "text": "Go to the swimming pool",
+      "day": "March 1st at 8:00am",
+      "reminder": true
+    },
+    {
+      "text": "Chill",
+      "day": "February 19th at 8:00am",
+      "reminder": false,
+      "id": 3206
     }
   ]
 }
