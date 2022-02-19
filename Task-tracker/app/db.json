@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "text": "Meeting with recruiter",
-      "day": "March 2st at 11:30am",
-      "reminder": true
-    },
-    {
       "id": 3205,
       "text": "Go to the swimming pool",
       "day": "March 1st at 8:00am",
